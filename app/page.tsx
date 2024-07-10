@@ -1,3 +1,10 @@
+import Navigation from "../components/navigations";
+
 export default function Tomato() {
-  return <h1> Hello Next js</h1>;
+  return (
+    <>
+      <Navigation />
+      <h1> Hello Next js</h1>
+    </>
+  );
 }
